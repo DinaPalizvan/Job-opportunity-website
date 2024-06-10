@@ -1,0 +1,15 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+    width: 100%;
+    background-color: rgba(110, 247, 247, 0.227);
+    padding-bottom: 50vh;
+}
+@media(max-width:500px){
+    .mainContainer{
+        padding-top: 80px;
+    }
+}

@@ -1,0 +1,75 @@
+
+.filterBox{
+    width: 80vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    position: absolute;
+    top: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgba(70, 160, 160, 0.686);
+    display: flex;
+    justify-content: space-between;
+}
+.filteredSkill{
+    padding: 0 7px;
+    border-radius: 5px;
+    color: rgb(70, 160, 160);
+    background-color: rgba(85, 213, 213, 0.227) ;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 0;
+    margin: 0 10px;
+    display: inline-block;
+    position: relative;
+}
+.close{
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(70, 160, 160);
+    transition: all 0.2s ease-out;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    margin-left: 8px; 
+    padding: 7px 12px;
+}
+.close:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.clear{
+    color: gray;
+}
+.clear:hover{
+    color: rgb(70, 160, 160);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 870px){
+.filterBox{
+    width: 400px;
+    padding: 5px 10px;
+}
+.filteredSkill{
+    padding-left: 7px;
+    margin: 5px;
+    font-size: 13px;
+}
+.close{
+    font-size: 13px;
+    margin-left: 8px; 
+    padding: 7px 12px;
+}
+.clear{
+    color: gray;
+    margin-right: 5px;
+}
+}
+@media (max-width: 500px){
+    .filterBox{
+        width: 300px;
+    }
+}
